@@ -1,0 +1,14 @@
+<template name="60186960">
+  <view class="_div data-v-624d30ff">
+    <view class="_div data-v-624d30ff background"></view>
+    <view class="_div data-v-624d30ff top">
+      <image src="{{userInfo.avatarUrl}}" alt="欢迎您" class="_img data-v-624d30ff"></image> <button class="_button data-v-624d30ff login" wx:if="{{canIUse&&userInfo.nickName===null}}" open-type="getUserInfo" bindgetuserinfo="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}">微信登录</button>
+      <view wx:if="{{!canIUse}}" class="_view data-v-624d30ff">请升级微信版本</view>
+      <view class="_view data-v-624d30ff loginText" wx:if="{{userInfo.nickName}}">{{userInfo.nickName}}</view>
+    </view>
+    <view class="_div data-v-624d30ff cells">
+      <van-cell title="我的订单" is-link class="_van-cell data-v-624d30ff"></van-cell>
+      <van-cell title="我的地址" is-link class="_van-cell data-v-624d30ff"></van-cell>
+    </view>
+  </view>
+</template>

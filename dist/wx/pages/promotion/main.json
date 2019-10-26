@@ -1,0 +1,11 @@
+{
+  "usingComponents": {
+    "mp-dialog": "/components/dialog/dialog"
+  },
+  "navigationBarBackgroundColor": "#3366FF",
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": "超市好货大清仓",
+  "backgroundColor": "#00B2EE",
+  "backgroundTextStyle": "light"
+}
+

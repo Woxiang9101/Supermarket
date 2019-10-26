@@ -1,0 +1,36 @@
+<template name="39e69e99">
+  <view class="_div data-v-0cd18190">
+    <swiper class="_swiper data-v-0cd18190 swiper" indicator-dots="true" autoplay="true" circular="true">
+      <swiper-item class="_swiper-item data-v-0cd18190">
+        <image class="_img data-v-0cd18190 swiperItem" src="/static/demo/swiper1.jpg" alt></image>
+      </swiper-item>
+      <swiper-item class="_swiper-item data-v-0cd18190">
+        <image class="_img data-v-0cd18190 swiperItem" src="/static/demo/swiper2.jpg" alt></image>
+      </swiper-item>
+      <swiper-item class="_swiper-item data-v-0cd18190">
+        <image class="_img data-v-0cd18190 swiperItem" src="/static/demo/swiper1.jpg" alt></image>
+      </swiper-item>
+      <swiper-item class="_swiper-item data-v-0cd18190">
+        <image class="_img data-v-0cd18190 swiperItem" src="/static/demo/swiper2.jpg" alt></image>
+      </swiper-item>
+    </swiper>
+    <view class="_div data-v-0cd18190 thhhText">
+      <view class="_div data-v-0cd18190 line"></view>
+      <view class="_p data-v-0cd18190 thhh">特惠好货</view>
+      <view class="_div data-v-0cd18190 line"></view>
+    </view>
+    <scroll-view class="_scroll-view data-v-0cd18190 scrollX" scroll-x="true" bindscroll="scroll" style="width: 100%">
+      <view class="_div data-v-0cd18190 scrollXItem">
+        <image class="_img data-v-0cd18190 ximg" src="/static/demo/scrox.jpg"></image>
+        <view class="_p data-v-0cd18190 title">花木星球洗衣液氨基ksdjfalkjsdfklajdkfjadfjkdjf;la酸小分子洁净 祖玛龙城。。。</view>
+        <view class="_p data-v-0cd18190 price">￥64.9</view>
+      </view>
+      <view class="_div data-v-0cd18190 scrollXItem">222222222222</view>
+      <view class="_div data-v-0cd18190 scrollXItem">333333333333</view>
+      <view class="_div data-v-0cd18190 scrollXItem">222222222222</view>
+      <view class="_div data-v-0cd18190 scrollXItem">333333333333</view>
+      <view class="_div data-v-0cd18190 scrollXItem">222222222222</view>
+      <view class="_div data-v-0cd18190 scrollXItem">333333333333</view>
+    </scroll-view>
+  </view>
+</template>

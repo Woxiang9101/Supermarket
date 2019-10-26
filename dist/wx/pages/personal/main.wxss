@@ -1,0 +1,74 @@
+
+.background {
+  width: 150%;
+  height: 600rpx;
+  border-radius: 50%;
+  background-color: #FE785A;
+  margin-left: -25%;
+  margin-top: -25%;
+  z-index: -1;
+  position: absolute;
+}
+.top {
+  width: 500rpx;
+  height: 100rpx;
+  position: absolute;
+  top: 100rpx;
+  left: 100rpx;
+}
+._img {
+  width: 150rpx;
+  height: 150rpx;
+  display: inline-block;
+  border-radius: 50%;
+}
+.capsule {
+  width: 150rpx;
+  height: 60rpx;
+  background-color: rgba(0, 0, 0, 0.2);
+  display: inline-block;
+  top: -10rpx;
+  position: relative;
+  margin-left: 30rpx;
+  border-radius: 87.5rpx;
+  text-align: center;
+}
+._p {
+  font-size: 30rpx;
+  line-height: 60rpx;
+  color: white;
+}
+.login {
+  height: 60rpx;
+  background-color: rgba(0, 0, 0, 0.2);
+  display: inline-block;
+  top: -30rpx;
+  position: relative;
+  margin-left: 30rpx;
+  border-radius: 87.5rpx;
+  text-align: center;
+  font-size: 30rpx;
+  line-height: 60rpx;
+  color: white;
+}
+.loginText {
+  height: 60rpx;
+  display: inline-block;
+  top: -30rpx;
+  position: relative;
+  margin-left: 30rpx;
+  text-align: center;
+  font-size: 40rpx;
+  line-height: 60rpx;
+  color: white;
+}
+.cells {
+  width: 80%;
+  position: absolute;
+  top: 300rpx;
+  left: 10%;
+  overflow: hidden;
+  border-radius: 15rpx;
+  opacity: 0.96;
+  box-shadow: 5rpx 5rpx 30rpx #d6d6d6;
+}
