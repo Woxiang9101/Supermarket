@@ -16,7 +16,6 @@
 .thhhText {
   width: 100%;
   height: 70rpx;
-  background-color: aquamarine;
   padding-top: 30rpx;
   display: flex;
   justify-content: center;
@@ -38,17 +37,34 @@
   margin-right: 10rpx;
 }
 .scrollX {
-  height: 500rpx;
-  background-color: sandybrown;
+  height: 410rpx;
   white-space: nowrap;
 }
 .scrollXItem {
-  height: 500rpx;
+  height: 357rpx;
   width: 200rpx;
-  margin-left: 50rpx;
-  background-color: lime;
+  margin-left: 20rpx;
   display: inline-block;
   overflow: hidden;
+  padding: 20rpx;
+  border-radius: 10rpx;
+  background-color: white;
+  box-shadow: 5rpx 5rpx 10rpx #abaaa2;
+}
+.scrollYItem {
+  height: 470rpx;
+  width: 300rpx;
+  margin: 10rpx 10rpx 5rpx 10rpx;
+  display: inline-block;
+  overflow: hidden;
+  padding: 20rpx;
+  border-radius: 10rpx;
+  background-color: white;
+  box-shadow: 5rpx 5rpx 10rpx #abaaa2;
+}
+.yimg {
+  width: 300rpx;
+  height: 300rpx;
 }
 .ximg {
   width: 200rpx;
@@ -56,7 +72,42 @@
 }
 .title {
   width: 200rpx;
-  height: 100rpx;
+  height: 87rpx;
+  overflow: hidden;
   text-overflow: ellipsis;
-  white-space: pre-wrap;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  white-space: normal !important;
+  line-height: 43.5rpx;
+  margin-top: 20rpx;
+}
+.ytitle {
+  width: 300rpx;
+  height: 87rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  white-space: normal !important;
+  line-height: 43.5rpx;
+  margin-top: 20rpx;
+  margin-bottom: 7rpx;
+}
+.price {
+  font-size: 30rpx;
+  display: inline-block;
+  margin-right: 20rpx;
+  margin-top: 10rpx;
+  color: #ff702d;
+}
+.orprice {
+  font-size: 20rpx;
+  text-decoration: line-through;
+  display: inline-block;
+  color: #aaaaaa;
+}
+.tab {
+  text-align: center;
 }

@@ -1,6 +1,8 @@
 {
   "usingComponents": {
-    "mp-dialog": "/components/dialog/dialog"
+    "mp-dialog": "/components/dialog/dialog",
+    "van-tab": "/components/vant-weapp/dist/tab/index",
+    "van-tabs": "/components/vant-weapp/dist/tabs/index"
   },
   "navigationBarBackgroundColor": "#3366FF",
   "navigationBarTextStyle": "white",

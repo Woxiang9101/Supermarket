@@ -1,0 +1,109 @@
+<template name="4e8ae504">
+  <view class="_div data-v-002d76b9">
+    <swiper class="_swiper data-v-002d76b9 swiper" indicator-dots="true">
+      <swiper-item class="_swiper-item data-v-002d76b9">
+        <image class="_img data-v-002d76b9 swiperItem" src="/static/demo/1.jpg" alt></image>
+      </swiper-item>
+      <swiper-item class="_swiper-item data-v-002d76b9">
+        <image class="_img data-v-002d76b9 swiperItem" src="/static/demo/2.jpg" alt></image>
+      </swiper-item>
+      <swiper-item class="_swiper-item data-v-002d76b9">
+        <image class="_img data-v-002d76b9 swiperItem" src="/static/demo/3.jpg" alt></image>
+      </swiper-item>
+      <swiper-item class="_swiper-item data-v-002d76b9">
+        <image class="_img data-v-002d76b9 swiperItem" src="/static/demo/4.jpg" alt></image>
+      </swiper-item>
+    </swiper>
+    <view class="_div data-v-002d76b9 priceText">
+      <view class="_p data-v-002d76b9 price">￥368</view><label class="_span data-v-002d76b9 orprice">原价￥450.52</label>
+    </view>
+    <view class="_h1 data-v-002d76b9 title">    法式婚纱2019新款新娘森系超仙梦幻女小个子 拖尾简单显瘦礼服</view>
+    <van-tag class="_van-tag data-v-002d76b9 tag" round type="primary">可配送港澳</van-tag>
+    <van-tag class="_van-tag data-v-002d76b9 tag" round type="success">库存充足</van-tag>
+    <van-tag class="_van-tag data-v-002d76b9 tag" round type="danger">7天无理由退货</van-tag>
+    <van-tag class="_van-tag data-v-002d76b9 tag" round type="warning">精准达</van-tag>
+    <view class="_div data-v-002d76b9 noticeBar">
+      <van-notice-bar left-icon="https://img.yzcdn.cn/1.png" text="促销:购买一件可优惠换购热销商品,促销:购买一件可优惠换购热销商品,促销:购买一件可优惠换购热销商品重要的事情说三遍！！！" class="_van-notice-bar data-v-002d76b9"></van-notice-bar>
+    </view>
+    <van-cell title="请选择" value="请选择商品类型和数量" center="{{true}}" clickable="{{false}}" arrow-direction="down" class="_van-cell data-v-002d76b9"></van-cell>
+    <view class="_view data-v-002d76b9 select">
+      <view class="_div data-v-002d76b9 selected">
+        <view class="_p data-v-002d76b9 selText">已选</view>
+        <view class="_p data-v-002d76b9 selectedInfo">480g*24整箱装</view>
+      </view>
+      <view class="_div data-v-002d76b9 product">
+        <view class="_p data-v-002d76b9 selText chanpin">产品</view>
+        <view class="_div data-v-002d76b9 proType">
+          <view class="_p data-v-002d76b9 proTag">500g</view>
+          <view class="_p data-v-002d76b9 proTag">50000g</view>
+          <view class="_p data-v-002d76b9 proTag">48瓶每箱</view>
+        </view>
+      </view>
+      <view class="_div data-v-002d76b9 mount">
+        <view class="_p data-v-002d76b9 selText">数量</view>
+        <van-stepper value="{{1}}" class="_van-stepper data-v-002d76b9"></van-stepper>
+      </view>
+    </view>
+    <van-cell title="商品参数" is-link bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}" class="_van-cell data-v-002d76b9"></van-cell>
+    <van-popup show="{{show}}" position="bottom" custom-style="height: 60%" bindclose="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}" class="_van-popup data-v-002d76b9">
+      <view class="_div data-v-002d76b9 chart">
+        <view class="_div data-v-002d76b9 chartLine">
+          <view class="_div data-v-002d76b9 proName">属性名</view>
+          <view class="_div data-v-002d76b9 proValue">属性值</view>
+        </view>
+        <view class="_div data-v-002d76b9 chartLine">
+          <view class="_div data-v-002d76b9 proName">大小</view>
+          <view class="_div data-v-002d76b9 proValue">50码</view>
+        </view>
+        <view class="_div data-v-002d76b9 chartLine">
+          <view class="_div data-v-002d76b9 proName">材质</view>
+          <view class="_div data-v-002d76b9 proValue">牛津布</view>
+        </view>
+        <view class="_div data-v-002d76b9 chartLine">
+          <view class="_div data-v-002d76b9 proName">适用性别</view>
+          <view class="_div data-v-002d76b9 proValue">男女均可</view>
+        </view>
+        <view class="_div data-v-002d76b9 chartLine">
+          <view class="_div data-v-002d76b9 proName">透气性能</view>
+          <view class="_div data-v-002d76b9 proValue">良好</view>
+        </view>
+        <view class="_div data-v-002d76b9 chartLine">
+          <view class="_div data-v-002d76b9 proName">属性名</view>
+          <view class="_div data-v-002d76b9 proValue">属性值</view>
+        </view>
+        <view class="_div data-v-002d76b9 chartLine">
+          <view class="_div data-v-002d76b9 proName">大小</view>
+          <view class="_div data-v-002d76b9 proValue">50码</view>
+        </view>
+        <view class="_div data-v-002d76b9 chartLine">
+          <view class="_div data-v-002d76b9 proName">材质</view>
+          <view class="_div data-v-002d76b9 proValue">牛津布</view>
+        </view>
+        <view class="_div data-v-002d76b9 chartLine">
+          <view class="_div data-v-002d76b9 proName">适用性别</view>
+          <view class="_div data-v-002d76b9 proValue">男女均可</view>
+        </view>
+        <view class="_div data-v-002d76b9 chartLine">
+          <view class="_div data-v-002d76b9 proName">透气性能</view>
+          <view class="_div data-v-002d76b9 proValue">良好</view>
+        </view>
+      </view>
+    </van-popup>
+    <view class="_div data-v-002d76b9 detailText">
+      <van-tag class="_van-tag data-v-002d76b9 detailTag" round type="primary">商品详情</van-tag>
+    </view>
+    <view class="_div data-v-002d76b9 imgBox">
+      <image class="_img data-v-002d76b9 detailImg" src="/static/demo/1.jpg"></image>
+      <image class="_img data-v-002d76b9 detailImg" src="/static/demo/2.jpg"></image>
+      <image class="_img data-v-002d76b9 detailImg" src="/static/demo/3.jpg"></image>
+      <image class="_img data-v-002d76b9 detailImg" src="/static/demo/4.jpg"></image>
+    </view>
+    <van-goods-action class="_van-goods-action data-v-002d76b9">
+      <van-goods-action-icon icon="chat-o" text="客服" dot class="_van-goods-action-icon data-v-002d76b9"></van-goods-action-icon>
+      <van-goods-action-icon icon="cart-o" text="购物车" info="5" class="_van-goods-action-icon data-v-002d76b9"></van-goods-action-icon>
+      <van-goods-action-button text="加入购物车" type="warning" class="_van-goods-action-button data-v-002d76b9"></van-goods-action-button>
+      <van-goods-action-button text="立即购买" class="_van-goods-action-button data-v-002d76b9"></van-goods-action-button>
+    </van-goods-action>
+    <view class="_div data-v-002d76b9 lastTip">亲！到底了油！^-^</view>
+  </view>
+</template>

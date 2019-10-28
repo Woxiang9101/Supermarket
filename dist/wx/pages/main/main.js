@@ -9,14 +9,19 @@ global.webpackJsonpMpvue([3],[
 /* 5 */,
 /* 6 */,
 /* 7 */,
-/* 8 */
+/* 8 */,
+/* 9 */,
+/* 10 */,
+/* 11 */,
+/* 12 */,
+/* 13 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index__ = __webpack_require__(9);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index__ = __webpack_require__(14);
 
 
 
@@ -30,16 +35,16 @@ var app = new __WEBPACK_IMPORTED_MODULE_0_vue___default.a(__WEBPACK_IMPORTED_MOD
 app.$mount();
 
 /***/ }),
-/* 9 */
+/* 14 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_mpvue_loader_2_0_1_mpvue_loader_lib_selector_type_script_index_0_index_vue__ = __webpack_require__(11);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_mpvue_loader_2_0_1_mpvue_loader_lib_template_compiler_index_id_data_v_0cd18190_hasScoped_false_transformToRequire_video_src_source_src_img_src_image_xlink_href_fileExt_template_wxml_script_js_style_wxss_platform_wx_node_modules_mpvue_loader_2_0_1_mpvue_loader_lib_selector_type_template_index_0_index_vue__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_mpvue_loader_2_0_1_mpvue_loader_lib_selector_type_script_index_0_index_vue__ = __webpack_require__(16);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_mpvue_loader_2_0_1_mpvue_loader_lib_template_compiler_index_id_data_v_0cd18190_hasScoped_false_transformToRequire_video_src_source_src_img_src_image_xlink_href_fileExt_template_wxml_script_js_style_wxss_platform_wx_node_modules_mpvue_loader_2_0_1_mpvue_loader_lib_selector_type_template_index_0_index_vue__ = __webpack_require__(17);
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(10)
+  __webpack_require__(15)
 }
 var normalizeComponent = __webpack_require__(1)
 /* script */
@@ -83,16 +88,376 @@ if (false) {(function () {
 
 
 /***/ }),
-/* 10 */
+/* 15 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
-/* 11 */
+/* 16 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -147,12 +512,21 @@ if (false) {(function () {
       interval: 2000,
       duration: 500
     };
+  },
+  methods: {
+    todetail: function todetail() {
+      console.log('点击了一下下');
+      console.log(wx);
+      wx.navigateTo({
+        url: '/pages/details/main'
+      });
+    }
   }
 
 });
 
 /***/ }),
-/* 12 */
+/* 17 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -166,7 +540,11 @@ var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._sel
     }
   }, [_c('swiper-item', {
     attrs: {
+      "eventid": '0',
       "mpcomid": '0'
+    },
+    on: {
+      "click": _vm.todetail
     }
   }, [_c('img', {
     staticClass: "swiperItem",
@@ -230,21 +608,816 @@ var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._sel
     }
   }), _vm._v(" "), _c('p', {
     staticClass: "title"
-  }, [_vm._v("花木星球洗衣液氨基ksdjfalkjsdfklajdkfjadfjkdjf;la酸小分子洁净 祖玛龙城。。。")]), _vm._v(" "), _c('p', {
+  }, [_vm._v("花木星球洗衣液氨基la酸小分子洁净 祖玛龙城。。。")]), _vm._v(" "), _c('p', {
     staticClass: "price"
-  }, [_vm._v("￥64.9")])], 1), _vm._v(" "), _c('div', {
+  }, [_vm._v("￥64.9")]), _vm._v(" "), _c('s', {
+    staticClass: "orprice"
+  }, [_vm._v("￥77.50")])], 1), _vm._v(" "), _c('div', {
     staticClass: "scrollXItem"
-  }, [_vm._v("222222222222")]), _vm._v(" "), _c('div', {
+  }, [_c('img', {
+    staticClass: "ximg",
+    attrs: {
+      "src": "/static/demo/scrox.jpg"
+    }
+  }), _vm._v(" "), _c('p', {
+    staticClass: "title"
+  }, [_vm._v("花木星球洗衣液氨基la酸小分子洁净 祖玛龙城。。。")]), _vm._v(" "), _c('p', {
+    staticClass: "price"
+  }, [_vm._v("￥64.9")]), _vm._v(" "), _c('s', {
+    staticClass: "orprice"
+  }, [_vm._v("￥77.50")])], 1), _vm._v(" "), _c('div', {
     staticClass: "scrollXItem"
-  }, [_vm._v("333333333333")]), _vm._v(" "), _c('div', {
+  }, [_c('img', {
+    staticClass: "ximg",
+    attrs: {
+      "src": "/static/demo/scrox.jpg"
+    }
+  }), _vm._v(" "), _c('p', {
+    staticClass: "title"
+  }, [_vm._v("花木星球洗衣液氨基la酸小分子洁净 祖玛龙城。。。")]), _vm._v(" "), _c('p', {
+    staticClass: "price"
+  }, [_vm._v("￥64.9")]), _vm._v(" "), _c('s', {
+    staticClass: "orprice"
+  }, [_vm._v("￥77.50")])], 1), _vm._v(" "), _c('div', {
     staticClass: "scrollXItem"
-  }, [_vm._v("222222222222")]), _vm._v(" "), _c('div', {
+  }, [_c('img', {
+    staticClass: "ximg",
+    attrs: {
+      "src": "/static/demo/scrox.jpg"
+    }
+  }), _vm._v(" "), _c('p', {
+    staticClass: "title"
+  }, [_vm._v("花木星球洗衣液氨基la酸小分子洁净 祖玛龙城。。。")]), _vm._v(" "), _c('p', {
+    staticClass: "price"
+  }, [_vm._v("￥64.9")]), _vm._v(" "), _c('s', {
+    staticClass: "orprice"
+  }, [_vm._v("￥77.50")])], 1), _vm._v(" "), _c('div', {
     staticClass: "scrollXItem"
-  }, [_vm._v("333333333333")]), _vm._v(" "), _c('div', {
+  }, [_c('img', {
+    staticClass: "ximg",
+    attrs: {
+      "src": "/static/demo/scrox.jpg"
+    }
+  }), _vm._v(" "), _c('p', {
+    staticClass: "title"
+  }, [_vm._v("花木星球洗衣液氨基la酸小分子洁净 祖玛龙城。。。")]), _vm._v(" "), _c('p', {
+    staticClass: "price"
+  }, [_vm._v("￥64.9")]), _vm._v(" "), _c('s', {
+    staticClass: "orprice"
+  }, [_vm._v("￥77.50")])], 1), _vm._v(" "), _c('div', {
     staticClass: "scrollXItem"
-  }, [_vm._v("222222222222")]), _vm._v(" "), _c('div', {
+  }, [_c('img', {
+    staticClass: "ximg",
+    attrs: {
+      "src": "/static/demo/scrox.jpg"
+    }
+  }), _vm._v(" "), _c('p', {
+    staticClass: "title"
+  }, [_vm._v("花木星球洗衣液氨基la酸小分子洁净 祖玛龙城。。。")]), _vm._v(" "), _c('p', {
+    staticClass: "price"
+  }, [_vm._v("￥64.9")]), _vm._v(" "), _c('s', {
+    staticClass: "orprice"
+  }, [_vm._v("￥77.50")])], 1), _vm._v(" "), _c('div', {
     staticClass: "scrollXItem"
-  }, [_vm._v("333333333333")])])], 1)
+  }, [_c('img', {
+    staticClass: "ximg",
+    attrs: {
+      "src": "/static/demo/scrox.jpg"
+    }
+  }), _vm._v(" "), _c('p', {
+    staticClass: "title"
+  }, [_vm._v("花木星球洗衣液氨基la酸小分子洁净 祖玛龙城。。。")]), _vm._v(" "), _c('p', {
+    staticClass: "price"
+  }, [_vm._v("￥64.9")]), _vm._v(" "), _c('s', {
+    staticClass: "orprice"
+  }, [_vm._v("￥77.50")])], 1), _vm._v(" "), _c('div', {
+    staticClass: "scrollXItem"
+  }, [_c('img', {
+    staticClass: "ximg",
+    attrs: {
+      "src": "/static/demo/scrox.jpg"
+    }
+  }), _vm._v(" "), _c('p', {
+    staticClass: "title"
+  }, [_vm._v("花木星球洗衣液氨基la酸小分子洁净 祖玛龙城。。。")]), _vm._v(" "), _c('p', {
+    staticClass: "price"
+  }, [_vm._v("￥64.9")]), _vm._v(" "), _c('s', {
+    staticClass: "orprice"
+  }, [_vm._v("￥77.50")])], 1), _vm._v(" "), _c('div', {
+    staticClass: "scrollXItem"
+  }, [_c('img', {
+    staticClass: "ximg",
+    attrs: {
+      "src": "/static/demo/scrox.jpg"
+    }
+  }), _vm._v(" "), _c('p', {
+    staticClass: "title"
+  }, [_vm._v("花木星球洗衣液氨基la酸小分子洁净 祖玛龙城。。。")]), _vm._v(" "), _c('p', {
+    staticClass: "price"
+  }, [_vm._v("￥64.9")]), _vm._v(" "), _c('s', {
+    staticClass: "orprice"
+  }, [_vm._v("￥77.50")])], 1), _vm._v(" "), _c('div', {
+    staticClass: "scrollXItem"
+  }, [_c('img', {
+    staticClass: "ximg",
+    attrs: {
+      "src": "/static/demo/scrox.jpg"
+    }
+  }), _vm._v(" "), _c('p', {
+    staticClass: "title"
+  }, [_vm._v("花木星球洗衣液氨基la酸小分子洁净 祖玛龙城。。。")]), _vm._v(" "), _c('p', {
+    staticClass: "price"
+  }, [_vm._v("￥64.9")]), _vm._v(" "), _c('s', {
+    staticClass: "orprice"
+  }, [_vm._v("￥77.50")])], 1)]), _vm._v(" "), _c('van-tabs', {
+    attrs: {
+      "sticky": "",
+      "animated": "",
+      "swipeable": "",
+      "border": false,
+      "mpcomid": '9'
+    }
+  }, [_c('van-tab', {
+    staticClass: "tab",
+    attrs: {
+      "title": "超市精选",
+      "mpcomid": '4'
+    }
+  }, [_c('div', {
+    staticClass: "scrollYItem"
+  }, [_c('img', {
+    staticClass: "yimg",
+    attrs: {
+      "src": "/static/demo/scrox.jpg"
+    }
+  }), _vm._v(" "), _c('p', {
+    staticClass: "ytitle"
+  }, [_vm._v("花木星球洗衣液氨基la酸小分子洁净 祖玛龙城。。。")]), _vm._v(" "), _c('p', {
+    staticClass: "price"
+  }, [_vm._v("￥64.9")]), _vm._v(" "), _c('s', {
+    staticClass: "orprice"
+  }, [_vm._v("￥77.50")])], 1), _vm._v(" "), _c('div', {
+    staticClass: "scrollYItem"
+  }, [_c('img', {
+    staticClass: "yimg",
+    attrs: {
+      "src": "/static/demo/scrox.jpg"
+    }
+  }), _vm._v(" "), _c('p', {
+    staticClass: "ytitle"
+  }, [_vm._v("花木星球洗衣液氨基la酸小分子洁净 祖玛龙城。。。")]), _vm._v(" "), _c('p', {
+    staticClass: "price"
+  }, [_vm._v("￥64.9")]), _vm._v(" "), _c('s', {
+    staticClass: "orprice"
+  }, [_vm._v("￥77.50")])], 1), _vm._v(" "), _c('div', {
+    staticClass: "scrollYItem"
+  }, [_c('img', {
+    staticClass: "yimg",
+    attrs: {
+      "src": "/static/demo/scrox.jpg"
+    }
+  }), _vm._v(" "), _c('p', {
+    staticClass: "ytitle"
+  }, [_vm._v("花木星球洗衣液氨基la酸小分子洁净 祖玛龙城。。。")]), _vm._v(" "), _c('p', {
+    staticClass: "price"
+  }, [_vm._v("￥64.9")]), _vm._v(" "), _c('s', {
+    staticClass: "orprice"
+  }, [_vm._v("￥77.50")])], 1), _vm._v(" "), _c('div', {
+    staticClass: "scrollYItem"
+  }, [_c('img', {
+    staticClass: "yimg",
+    attrs: {
+      "src": "/static/demo/scrox.jpg"
+    }
+  }), _vm._v(" "), _c('p', {
+    staticClass: "ytitle"
+  }, [_vm._v("花木星球洗衣液氨基la酸小分子洁净 祖玛龙城。。。")]), _vm._v(" "), _c('p', {
+    staticClass: "price"
+  }, [_vm._v("￥64.9")]), _vm._v(" "), _c('s', {
+    staticClass: "orprice"
+  }, [_vm._v("￥77.50")])], 1), _vm._v(" "), _c('div', {
+    staticClass: "scrollYItem"
+  }, [_c('img', {
+    staticClass: "yimg",
+    attrs: {
+      "src": "/static/demo/scrox.jpg"
+    }
+  }), _vm._v(" "), _c('p', {
+    staticClass: "ytitle"
+  }, [_vm._v("花木星球洗衣液氨基la酸小分子洁净 祖玛龙城。。。")]), _vm._v(" "), _c('p', {
+    staticClass: "price"
+  }, [_vm._v("￥64.9")]), _vm._v(" "), _c('s', {
+    staticClass: "orprice"
+  }, [_vm._v("￥77.50")])], 1), _vm._v(" "), _c('div', {
+    staticClass: "scrollYItem"
+  }, [_c('img', {
+    staticClass: "yimg",
+    attrs: {
+      "src": "/static/demo/scrox.jpg"
+    }
+  }), _vm._v(" "), _c('p', {
+    staticClass: "ytitle"
+  }, [_vm._v("花木星球洗衣液氨基la酸小分子洁净 祖玛龙城。。。")]), _vm._v(" "), _c('p', {
+    staticClass: "price"
+  }, [_vm._v("￥64.9")]), _vm._v(" "), _c('s', {
+    staticClass: "orprice"
+  }, [_vm._v("￥77.50")])], 1), _vm._v(" "), _c('div', {
+    staticClass: "scrollYItem"
+  }, [_c('img', {
+    staticClass: "yimg",
+    attrs: {
+      "src": "/static/demo/scrox.jpg"
+    }
+  }), _vm._v(" "), _c('p', {
+    staticClass: "ytitle"
+  }, [_vm._v("花木星球洗衣液氨基la酸小分子洁净 祖玛龙城。。。")]), _vm._v(" "), _c('p', {
+    staticClass: "price"
+  }, [_vm._v("￥64.9")]), _vm._v(" "), _c('s', {
+    staticClass: "orprice"
+  }, [_vm._v("￥77.50")])], 1), _vm._v(" "), _c('div', {
+    staticClass: "scrollYItem"
+  }, [_c('img', {
+    staticClass: "yimg",
+    attrs: {
+      "src": "/static/demo/scrox.jpg"
+    }
+  }), _vm._v(" "), _c('p', {
+    staticClass: "ytitle"
+  }, [_vm._v("花木星球洗衣液氨基la酸小分子洁净 祖玛龙城。。。")]), _vm._v(" "), _c('p', {
+    staticClass: "price"
+  }, [_vm._v("￥64.9")]), _vm._v(" "), _c('s', {
+    staticClass: "orprice"
+  }, [_vm._v("￥77.50")])], 1), _vm._v(" "), _c('div', {
+    staticClass: "scrollYItem"
+  }, [_c('img', {
+    staticClass: "yimg",
+    attrs: {
+      "src": "/static/demo/scrox.jpg"
+    }
+  }), _vm._v(" "), _c('p', {
+    staticClass: "ytitle"
+  }, [_vm._v("花木星球洗衣液氨基la酸小分子洁净 祖玛龙城。。。")]), _vm._v(" "), _c('p', {
+    staticClass: "price"
+  }, [_vm._v("￥64.9")]), _vm._v(" "), _c('s', {
+    staticClass: "orprice"
+  }, [_vm._v("￥77.50")])], 1), _vm._v(" "), _c('div', {
+    staticClass: "scrollYItem"
+  }, [_c('img', {
+    staticClass: "yimg",
+    attrs: {
+      "src": "/static/demo/scrox.jpg"
+    }
+  }), _vm._v(" "), _c('p', {
+    staticClass: "ytitle"
+  }, [_vm._v("花木星球洗衣液氨基la酸小分子洁净 祖玛龙城。。。")]), _vm._v(" "), _c('p', {
+    staticClass: "price"
+  }, [_vm._v("￥64.9")]), _vm._v(" "), _c('s', {
+    staticClass: "orprice"
+  }, [_vm._v("￥77.50")])], 1)]), _vm._v(" "), _c('van-tab', {
+    staticClass: "tab",
+    attrs: {
+      "title": "宠物生活",
+      "mpcomid": '5'
+    }
+  }, [_c('div', {
+    staticClass: "scrollYItem"
+  }, [_c('img', {
+    staticClass: "yimg",
+    attrs: {
+      "src": "/static/demo/scrox.jpg"
+    }
+  }), _vm._v(" "), _c('p', {
+    staticClass: "ytitle"
+  }, [_vm._v("花木星球洗衣液氨基la酸小分子洁净 祖玛龙城。。。")]), _vm._v(" "), _c('p', {
+    staticClass: "price"
+  }, [_vm._v("￥64.9")]), _vm._v(" "), _c('s', {
+    staticClass: "orprice"
+  }, [_vm._v("￥77.50")])], 1), _vm._v(" "), _c('div', {
+    staticClass: "scrollYItem"
+  }, [_c('img', {
+    staticClass: "yimg",
+    attrs: {
+      "src": "/static/demo/scrox.jpg"
+    }
+  }), _vm._v(" "), _c('p', {
+    staticClass: "ytitle"
+  }, [_vm._v("花木星球洗衣液氨基la酸小分子洁净 祖玛龙城。。。")]), _vm._v(" "), _c('p', {
+    staticClass: "price"
+  }, [_vm._v("￥64.9")]), _vm._v(" "), _c('s', {
+    staticClass: "orprice"
+  }, [_vm._v("￥77.50")])], 1), _vm._v(" "), _c('div', {
+    staticClass: "scrollYItem"
+  }, [_c('img', {
+    staticClass: "yimg",
+    attrs: {
+      "src": "/static/demo/scrox.jpg"
+    }
+  }), _vm._v(" "), _c('p', {
+    staticClass: "ytitle"
+  }, [_vm._v("花木星球洗衣液氨基la酸小分子洁净 祖玛龙城。。。")]), _vm._v(" "), _c('p', {
+    staticClass: "price"
+  }, [_vm._v("￥64.9")]), _vm._v(" "), _c('s', {
+    staticClass: "orprice"
+  }, [_vm._v("￥77.50")])], 1), _vm._v(" "), _c('div', {
+    staticClass: "scrollYItem"
+  }, [_c('img', {
+    staticClass: "yimg",
+    attrs: {
+      "src": "/static/demo/scrox.jpg"
+    }
+  }), _vm._v(" "), _c('p', {
+    staticClass: "ytitle"
+  }, [_vm._v("花木星球洗衣液氨基la酸小分子洁净 祖玛龙城。。。")]), _vm._v(" "), _c('p', {
+    staticClass: "price"
+  }, [_vm._v("￥64.9")]), _vm._v(" "), _c('s', {
+    staticClass: "orprice"
+  }, [_vm._v("￥77.50")])], 1), _vm._v(" "), _c('div', {
+    staticClass: "scrollYItem"
+  }, [_c('img', {
+    staticClass: "yimg",
+    attrs: {
+      "src": "/static/demo/scrox.jpg"
+    }
+  }), _vm._v(" "), _c('p', {
+    staticClass: "ytitle"
+  }, [_vm._v("花木星球洗衣液氨基la酸小分子洁净 祖玛龙城。。。")]), _vm._v(" "), _c('p', {
+    staticClass: "price"
+  }, [_vm._v("￥64.9")]), _vm._v(" "), _c('s', {
+    staticClass: "orprice"
+  }, [_vm._v("￥77.50")])], 1), _vm._v(" "), _c('div', {
+    staticClass: "scrollYItem"
+  }, [_c('img', {
+    staticClass: "yimg",
+    attrs: {
+      "src": "/static/demo/scrox.jpg"
+    }
+  }), _vm._v(" "), _c('p', {
+    staticClass: "ytitle"
+  }, [_vm._v("花木星球洗衣液氨基la酸小分子洁净 祖玛龙城。。。")]), _vm._v(" "), _c('p', {
+    staticClass: "price"
+  }, [_vm._v("￥64.9")]), _vm._v(" "), _c('s', {
+    staticClass: "orprice"
+  }, [_vm._v("￥77.50")])], 1), _vm._v(" "), _c('div', {
+    staticClass: "scrollYItem"
+  }, [_c('img', {
+    staticClass: "yimg",
+    attrs: {
+      "src": "/static/demo/scrox.jpg"
+    }
+  }), _vm._v(" "), _c('p', {
+    staticClass: "ytitle"
+  }, [_vm._v("花木星球洗衣液氨基la酸小分子洁净 祖玛龙城。。。")]), _vm._v(" "), _c('p', {
+    staticClass: "price"
+  }, [_vm._v("￥64.9")]), _vm._v(" "), _c('s', {
+    staticClass: "orprice"
+  }, [_vm._v("￥77.50")])], 1), _vm._v(" "), _c('div', {
+    staticClass: "scrollYItem"
+  }, [_c('img', {
+    staticClass: "yimg",
+    attrs: {
+      "src": "/static/demo/scrox.jpg"
+    }
+  }), _vm._v(" "), _c('p', {
+    staticClass: "ytitle"
+  }, [_vm._v("花木星球洗衣液氨基la酸小分子洁净 祖玛龙城。。。")]), _vm._v(" "), _c('p', {
+    staticClass: "price"
+  }, [_vm._v("￥64.9")]), _vm._v(" "), _c('s', {
+    staticClass: "orprice"
+  }, [_vm._v("￥77.50")])], 1), _vm._v(" "), _c('div', {
+    staticClass: "scrollYItem"
+  }, [_c('img', {
+    staticClass: "yimg",
+    attrs: {
+      "src": "/static/demo/scrox.jpg"
+    }
+  }), _vm._v(" "), _c('p', {
+    staticClass: "ytitle"
+  }, [_vm._v("花木星球洗衣液氨基la酸小分子洁净 祖玛龙城。。。")]), _vm._v(" "), _c('p', {
+    staticClass: "price"
+  }, [_vm._v("￥64.9")]), _vm._v(" "), _c('s', {
+    staticClass: "orprice"
+  }, [_vm._v("￥77.50")])], 1), _vm._v(" "), _c('div', {
+    staticClass: "scrollYItem"
+  }, [_c('img', {
+    staticClass: "yimg",
+    attrs: {
+      "src": "/static/demo/scrox.jpg"
+    }
+  }), _vm._v(" "), _c('p', {
+    staticClass: "ytitle"
+  }, [_vm._v("花木星球洗衣液氨基la酸小分子洁净 祖玛龙城。。。")]), _vm._v(" "), _c('p', {
+    staticClass: "price"
+  }, [_vm._v("￥64.9")]), _vm._v(" "), _c('s', {
+    staticClass: "orprice"
+  }, [_vm._v("￥77.50")])], 1)]), _vm._v(" "), _c('van-tab', {
+    staticClass: "tab",
+    attrs: {
+      "title": "家具日用",
+      "mpcomid": '6'
+    }
+  }, [_c('div', {
+    staticClass: "scrollYItem"
+  }, [_c('img', {
+    staticClass: "yimg",
+    attrs: {
+      "src": "/static/demo/scrox.jpg"
+    }
+  }), _vm._v(" "), _c('p', {
+    staticClass: "ytitle"
+  }, [_vm._v("花木星球洗衣液氨基la酸小分子洁净 祖玛龙城。。。")]), _vm._v(" "), _c('p', {
+    staticClass: "price"
+  }, [_vm._v("￥64.9")]), _vm._v(" "), _c('s', {
+    staticClass: "orprice"
+  }, [_vm._v("￥77.50")])], 1), _vm._v(" "), _c('div', {
+    staticClass: "scrollYItem"
+  }, [_c('img', {
+    staticClass: "yimg",
+    attrs: {
+      "src": "/static/demo/scrox.jpg"
+    }
+  }), _vm._v(" "), _c('p', {
+    staticClass: "ytitle"
+  }, [_vm._v("花木星球洗衣液氨基la酸小分子洁净 祖玛龙城。。。")]), _vm._v(" "), _c('p', {
+    staticClass: "price"
+  }, [_vm._v("￥64.9")]), _vm._v(" "), _c('s', {
+    staticClass: "orprice"
+  }, [_vm._v("￥77.50")])], 1), _vm._v(" "), _c('div', {
+    staticClass: "scrollYItem"
+  }, [_c('img', {
+    staticClass: "yimg",
+    attrs: {
+      "src": "/static/demo/scrox.jpg"
+    }
+  }), _vm._v(" "), _c('p', {
+    staticClass: "ytitle"
+  }, [_vm._v("花木星球洗衣液氨基la酸小分子洁净 祖玛龙城。。。")]), _vm._v(" "), _c('p', {
+    staticClass: "price"
+  }, [_vm._v("￥64.9")]), _vm._v(" "), _c('s', {
+    staticClass: "orprice"
+  }, [_vm._v("￥77.50")])], 1), _vm._v(" "), _c('div', {
+    staticClass: "scrollYItem"
+  }, [_c('img', {
+    staticClass: "yimg",
+    attrs: {
+      "src": "/static/demo/scrox.jpg"
+    }
+  }), _vm._v(" "), _c('p', {
+    staticClass: "ytitle"
+  }, [_vm._v("花木星球洗衣液氨基la酸小分子洁净 祖玛龙城。。。")]), _vm._v(" "), _c('p', {
+    staticClass: "price"
+  }, [_vm._v("￥64.9")]), _vm._v(" "), _c('s', {
+    staticClass: "orprice"
+  }, [_vm._v("￥77.50")])], 1), _vm._v(" "), _c('div', {
+    staticClass: "scrollYItem"
+  }, [_c('img', {
+    staticClass: "yimg",
+    attrs: {
+      "src": "/static/demo/scrox.jpg"
+    }
+  }), _vm._v(" "), _c('p', {
+    staticClass: "ytitle"
+  }, [_vm._v("花木星球洗衣液氨基la酸小分子洁净 祖玛龙城。。。")]), _vm._v(" "), _c('p', {
+    staticClass: "price"
+  }, [_vm._v("￥64.9")]), _vm._v(" "), _c('s', {
+    staticClass: "orprice"
+  }, [_vm._v("￥77.50")])], 1), _vm._v(" "), _c('div', {
+    staticClass: "scrollYItem"
+  }, [_c('img', {
+    staticClass: "yimg",
+    attrs: {
+      "src": "/static/demo/scrox.jpg"
+    }
+  }), _vm._v(" "), _c('p', {
+    staticClass: "ytitle"
+  }, [_vm._v("花木星球洗衣液氨基la酸小分子洁净 祖玛龙城。。。")]), _vm._v(" "), _c('p', {
+    staticClass: "price"
+  }, [_vm._v("￥64.9")]), _vm._v(" "), _c('s', {
+    staticClass: "orprice"
+  }, [_vm._v("￥77.50")])], 1), _vm._v(" "), _c('div', {
+    staticClass: "scrollYItem"
+  }, [_c('img', {
+    staticClass: "yimg",
+    attrs: {
+      "src": "/static/demo/scrox.jpg"
+    }
+  }), _vm._v(" "), _c('p', {
+    staticClass: "ytitle"
+  }, [_vm._v("花木星球洗衣液氨基la酸小分子洁净 祖玛龙城。。。")]), _vm._v(" "), _c('p', {
+    staticClass: "price"
+  }, [_vm._v("￥64.9")]), _vm._v(" "), _c('s', {
+    staticClass: "orprice"
+  }, [_vm._v("￥77.50")])], 1), _vm._v(" "), _c('div', {
+    staticClass: "scrollYItem"
+  }, [_c('img', {
+    staticClass: "yimg",
+    attrs: {
+      "src": "/static/demo/scrox.jpg"
+    }
+  }), _vm._v(" "), _c('p', {
+    staticClass: "ytitle"
+  }, [_vm._v("花木星球洗衣液氨基la酸小分子洁净 祖玛龙城。。。")]), _vm._v(" "), _c('p', {
+    staticClass: "price"
+  }, [_vm._v("￥64.9")]), _vm._v(" "), _c('s', {
+    staticClass: "orprice"
+  }, [_vm._v("￥77.50")])], 1), _vm._v(" "), _c('div', {
+    staticClass: "scrollYItem"
+  }, [_c('img', {
+    staticClass: "yimg",
+    attrs: {
+      "src": "/static/demo/scrox.jpg"
+    }
+  }), _vm._v(" "), _c('p', {
+    staticClass: "ytitle"
+  }, [_vm._v("花木星球洗衣液氨基la酸小分子洁净 祖玛龙城。。。")]), _vm._v(" "), _c('p', {
+    staticClass: "price"
+  }, [_vm._v("￥64.9")]), _vm._v(" "), _c('s', {
+    staticClass: "orprice"
+  }, [_vm._v("￥77.50")])], 1), _vm._v(" "), _c('div', {
+    staticClass: "scrollYItem"
+  }, [_c('img', {
+    staticClass: "yimg",
+    attrs: {
+      "src": "/static/demo/scrox.jpg"
+    }
+  }), _vm._v(" "), _c('p', {
+    staticClass: "ytitle"
+  }, [_vm._v("花木星球洗衣液氨基la酸小分子洁净 祖玛龙城。。。")]), _vm._v(" "), _c('p', {
+    staticClass: "price"
+  }, [_vm._v("￥64.9")]), _vm._v(" "), _c('s', {
+    staticClass: "orprice"
+  }, [_vm._v("￥77.50")])], 1)]), _vm._v(" "), _c('van-tab', {
+    staticClass: "tab",
+    attrs: {
+      "title": "时令生鲜",
+      "mpcomid": '7'
+    }
+  }, [_c('div', {
+    staticClass: "scrollYItem"
+  }, [_c('img', {
+    staticClass: "yimg",
+    attrs: {
+      "src": "/static/demo/scrox.jpg"
+    }
+  }), _vm._v(" "), _c('p', {
+    staticClass: "ytitle"
+  }, [_vm._v("花木星球洗衣液氨基la酸小分子洁净 祖玛龙城。。。")]), _vm._v(" "), _c('p', {
+    staticClass: "price"
+  }, [_vm._v("￥64.9")]), _vm._v(" "), _c('s', {
+    staticClass: "orprice"
+  }, [_vm._v("￥77.50")])], 1), _vm._v(" "), _c('div', {
+    staticClass: "scrollYItem"
+  }, [_c('img', {
+    staticClass: "yimg",
+    attrs: {
+      "src": "/static/demo/scrox.jpg"
+    }
+  }), _vm._v(" "), _c('p', {
+    staticClass: "ytitle"
+  }, [_vm._v("花木星球洗衣液氨基la酸小分子洁净 祖玛龙城。。。")]), _vm._v(" "), _c('p', {
+    staticClass: "price"
+  }, [_vm._v("￥64.9")]), _vm._v(" "), _c('s', {
+    staticClass: "orprice"
+  }, [_vm._v("￥77.50")])], 1), _vm._v(" "), _c('div', {
+    staticClass: "scrollYItem"
+  }, [_c('img', {
+    staticClass: "yimg",
+    attrs: {
+      "src": "/static/demo/scrox.jpg"
+    }
+  }), _vm._v(" "), _c('p', {
+    staticClass: "ytitle"
+  }, [_vm._v("花木星球洗衣液氨基la酸小分子洁净 祖玛龙城。。。")]), _vm._v(" "), _c('p', {
+    staticClass: "price"
+  }, [_vm._v("￥64.9")]), _vm._v(" "), _c('s', {
+    staticClass: "orprice"
+  }, [_vm._v("￥77.50")])], 1), _vm._v(" "), _c('div', {
+    staticClass: "scrollYItem"
+  }, [_c('img', {
+    staticClass: "yimg",
+    attrs: {
+      "src": "/static/demo/scrox.jpg"
+    }
+  }), _vm._v(" "), _c('p', {
+    staticClass: "ytitle"
+  }, [_vm._v("花木星球洗衣液氨基la酸小分子洁净 祖玛龙城。。。")]), _vm._v(" "), _c('p', {
+    staticClass: "price"
+  }, [_vm._v("￥64.9")]), _vm._v(" "), _c('s', {
+    staticClass: "orprice"
+  }, [_vm._v("￥77.50")])], 1), _vm._v(" "), _c('div', {
+    staticClass: "scrollYItem"
+  }, [_c('img', {
+    staticClass: "yimg",
+    attrs: {
+      "src": "/static/demo/scrox.jpg"
+    }
+  }), _vm._v(" "), _c('p', {
+    staticClass: "ytitle"
+  }, [_vm._v("花木星球洗衣液氨基la酸小分子洁净 祖玛龙城。。。")]), _vm._v(" "), _c('p', {
+    staticClass: "price"
+  }, [_vm._v("￥64.9")]), _vm._v(" "), _c('s', {
+    staticClass: "orprice"
+  }, [_vm._v("￥77.50")])], 1), _vm._v(" "), _c('div', {
+    staticClass: "scrollYItem"
+  }, [_c('img', {
+    staticClass: "yimg",
+    attrs: {
+      "src": "/static/demo/scrox.jpg"
+    }
+  }), _vm._v(" "), _c('p', {
+    staticClass: "ytitle"
+  }, [_vm._v("花木星球洗衣液氨基la酸小分子洁净 祖玛龙城。。。")]), _vm._v(" "), _c('p', {
+    staticClass: "price"
+  }, [_vm._v("￥64.9")]), _vm._v(" "), _c('s', {
+    staticClass: "orprice"
+  }, [_vm._v("￥77.50")])], 1), _vm._v(" "), _c('div', {
+    staticClass: "scrollYItem"
+  }, [_c('img', {
+    staticClass: "yimg",
+    attrs: {
+      "src": "/static/demo/scrox.jpg"
+    }
+  }), _vm._v(" "), _c('p', {
+    staticClass: "ytitle"
+  }, [_vm._v("花木星球洗衣液氨基la酸小分子洁净 祖玛龙城。。。")]), _vm._v(" "), _c('p', {
+    staticClass: "price"
+  }, [_vm._v("￥64.9")]), _vm._v(" "), _c('s', {
+    staticClass: "orprice"
+  }, [_vm._v("￥77.50")])], 1), _vm._v(" "), _c('div', {
+    staticClass: "scrollYItem"
+  }, [_c('img', {
+    staticClass: "yimg",
+    attrs: {
+      "src": "/static/demo/scrox.jpg"
+    }
+  }), _vm._v(" "), _c('p', {
+    staticClass: "ytitle"
+  }, [_vm._v("花木星球洗衣液氨基la酸小分子洁净 祖玛龙城。。。")]), _vm._v(" "), _c('p', {
+    staticClass: "price"
+  }, [_vm._v("￥64.9")]), _vm._v(" "), _c('s', {
+    staticClass: "orprice"
+  }, [_vm._v("￥77.50")])], 1), _vm._v(" "), _c('div', {
+    staticClass: "scrollYItem"
+  }, [_c('img', {
+    staticClass: "yimg",
+    attrs: {
+      "src": "/static/demo/scrox.jpg"
+    }
+  }), _vm._v(" "), _c('p', {
+    staticClass: "ytitle"
+  }, [_vm._v("花木星球洗衣液氨基la酸小分子洁净 祖玛龙城。。。")]), _vm._v(" "), _c('p', {
+    staticClass: "price"
+  }, [_vm._v("￥64.9")]), _vm._v(" "), _c('s', {
+    staticClass: "orprice"
+  }, [_vm._v("￥77.50")])], 1), _vm._v(" "), _c('div', {
+    staticClass: "scrollYItem"
+  }, [_c('img', {
+    staticClass: "yimg",
+    attrs: {
+      "src": "/static/demo/scrox.jpg"
+    }
+  }), _vm._v(" "), _c('p', {
+    staticClass: "ytitle"
+  }, [_vm._v("花木星球洗衣液氨基la酸小分子洁净 祖玛龙城。。。")]), _vm._v(" "), _c('p', {
+    staticClass: "price"
+  }, [_vm._v("￥64.9")]), _vm._v(" "), _c('s', {
+    staticClass: "orprice"
+  }, [_vm._v("￥77.50")])], 1)]), _vm._v(" "), _c('van-tab', {
+    staticClass: "tab",
+    attrs: {
+      "title": "中外名酒",
+      "mpcomid": '8'
+    }
+  }, [_c('div', {
+    staticClass: "scrollYItem"
+  }, [_c('img', {
+    staticClass: "yimg",
+    attrs: {
+      "src": "/static/demo/scrox.jpg"
+    }
+  }), _vm._v(" "), _c('p', {
+    staticClass: "ytitle"
+  }, [_vm._v("花木星球洗衣液氨基la酸小分子洁净 祖玛龙城。。。")]), _vm._v(" "), _c('p', {
+    staticClass: "price"
+  }, [_vm._v("￥64.9")]), _vm._v(" "), _c('s', {
+    staticClass: "orprice"
+  }, [_vm._v("￥77.50")])], 1), _vm._v(" "), _c('div', {
+    staticClass: "scrollYItem"
+  }, [_c('img', {
+    staticClass: "yimg",
+    attrs: {
+      "src": "/static/demo/scrox.jpg"
+    }
+  }), _vm._v(" "), _c('p', {
+    staticClass: "ytitle"
+  }, [_vm._v("花木星球洗衣液氨基la酸小分子洁净 祖玛龙城。。。")]), _vm._v(" "), _c('p', {
+    staticClass: "price"
+  }, [_vm._v("￥64.9")]), _vm._v(" "), _c('s', {
+    staticClass: "orprice"
+  }, [_vm._v("￥77.50")])], 1), _vm._v(" "), _c('div', {
+    staticClass: "scrollYItem"
+  }, [_c('img', {
+    staticClass: "yimg",
+    attrs: {
+      "src": "/static/demo/scrox.jpg"
+    }
+  }), _vm._v(" "), _c('p', {
+    staticClass: "ytitle"
+  }, [_vm._v("花木星球洗衣液氨基la酸小分子洁净 祖玛龙城。。。")]), _vm._v(" "), _c('p', {
+    staticClass: "price"
+  }, [_vm._v("￥64.9")]), _vm._v(" "), _c('s', {
+    staticClass: "orprice"
+  }, [_vm._v("￥77.50")])], 1), _vm._v(" "), _c('div', {
+    staticClass: "scrollYItem"
+  }, [_c('img', {
+    staticClass: "yimg",
+    attrs: {
+      "src": "/static/demo/scrox.jpg"
+    }
+  }), _vm._v(" "), _c('p', {
+    staticClass: "ytitle"
+  }, [_vm._v("花木星球洗衣液氨基la酸小分子洁净 祖玛龙城。。。")]), _vm._v(" "), _c('p', {
+    staticClass: "price"
+  }, [_vm._v("￥64.9")]), _vm._v(" "), _c('s', {
+    staticClass: "orprice"
+  }, [_vm._v("￥77.50")])], 1), _vm._v(" "), _c('div', {
+    staticClass: "scrollYItem"
+  }, [_c('img', {
+    staticClass: "yimg",
+    attrs: {
+      "src": "/static/demo/scrox.jpg"
+    }
+  }), _vm._v(" "), _c('p', {
+    staticClass: "ytitle"
+  }, [_vm._v("花木星球洗衣液氨基la酸小分子洁净 祖玛龙城。。。")]), _vm._v(" "), _c('p', {
+    staticClass: "price"
+  }, [_vm._v("￥64.9")]), _vm._v(" "), _c('s', {
+    staticClass: "orprice"
+  }, [_vm._v("￥77.50")])], 1), _vm._v(" "), _c('div', {
+    staticClass: "scrollYItem"
+  }, [_c('img', {
+    staticClass: "yimg",
+    attrs: {
+      "src": "/static/demo/scrox.jpg"
+    }
+  }), _vm._v(" "), _c('p', {
+    staticClass: "ytitle"
+  }, [_vm._v("花木星球洗衣液氨基la酸小分子洁净 祖玛龙城。。。")]), _vm._v(" "), _c('p', {
+    staticClass: "price"
+  }, [_vm._v("￥64.9")]), _vm._v(" "), _c('s', {
+    staticClass: "orprice"
+  }, [_vm._v("￥77.50")])], 1), _vm._v(" "), _c('div', {
+    staticClass: "scrollYItem"
+  }, [_c('img', {
+    staticClass: "yimg",
+    attrs: {
+      "src": "/static/demo/scrox.jpg"
+    }
+  }), _vm._v(" "), _c('p', {
+    staticClass: "ytitle"
+  }, [_vm._v("花木星球洗衣液氨基la酸小分子洁净 祖玛龙城。。。")]), _vm._v(" "), _c('p', {
+    staticClass: "price"
+  }, [_vm._v("￥64.9")]), _vm._v(" "), _c('s', {
+    staticClass: "orprice"
+  }, [_vm._v("￥77.50")])], 1), _vm._v(" "), _c('div', {
+    staticClass: "scrollYItem"
+  }, [_c('img', {
+    staticClass: "yimg",
+    attrs: {
+      "src": "/static/demo/scrox.jpg"
+    }
+  }), _vm._v(" "), _c('p', {
+    staticClass: "ytitle"
+  }, [_vm._v("花木星球洗衣液氨基la酸小分子洁净 祖玛龙城。。。")]), _vm._v(" "), _c('p', {
+    staticClass: "price"
+  }, [_vm._v("￥64.9")]), _vm._v(" "), _c('s', {
+    staticClass: "orprice"
+  }, [_vm._v("￥77.50")])], 1), _vm._v(" "), _c('div', {
+    staticClass: "scrollYItem"
+  }, [_c('img', {
+    staticClass: "yimg",
+    attrs: {
+      "src": "/static/demo/scrox.jpg"
+    }
+  }), _vm._v(" "), _c('p', {
+    staticClass: "ytitle"
+  }, [_vm._v("花木星球洗衣液氨基la酸小分子洁净 祖玛龙城。。。")]), _vm._v(" "), _c('p', {
+    staticClass: "price"
+  }, [_vm._v("￥64.9")]), _vm._v(" "), _c('s', {
+    staticClass: "orprice"
+  }, [_vm._v("￥77.50")])], 1), _vm._v(" "), _c('div', {
+    staticClass: "scrollYItem"
+  }, [_c('img', {
+    staticClass: "yimg",
+    attrs: {
+      "src": "/static/demo/scrox.jpg"
+    }
+  }), _vm._v(" "), _c('p', {
+    staticClass: "ytitle"
+  }, [_vm._v("花木星球洗衣液氨基la酸小分子洁净 祖玛龙城。。。")]), _vm._v(" "), _c('p', {
+    staticClass: "price"
+  }, [_vm._v("￥64.9")]), _vm._v(" "), _c('s', {
+    staticClass: "orprice"
+  }, [_vm._v("￥77.50")])], 1)])], 1)], 1)
 }
 var staticRenderFns = []
 render._withStripped = true
@@ -258,4 +1431,4 @@ if (false) {
 }
 
 /***/ })
-],[8]);
+],[13]);

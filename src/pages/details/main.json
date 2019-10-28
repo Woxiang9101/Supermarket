@@ -1,0 +1,18 @@
+{
+  "usingComponents": {
+    "van-cell": "/components/vant-weapp/dist/cell/index",
+    "van-tag": "/components/vant-weapp/dist/tag/index",
+    "van-stepper": "/components/vant-weapp/dist/stepper/index",
+    "van-popup": "/components/vant-weapp/dist/popup/index",
+    "van-goods-action": "/components/vant-weapp/dist/goods-action/index",
+    "van-goods-action-icon": "/components/vant-weapp/dist/goods-action-icon/index",
+    "van-goods-action-button": "/components/vant-weapp/dist/goods-action-button/index",
+    "van-notice-bar": "/components/vant-weapp/dist/notice-bar/index"
+  },
+  "navigationBarBackgroundColor": "#3366FF",
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": "商品详情",
+  "backgroundColor": "#00B2EE",
+  "backgroundTextStyle": "light"
+}
+

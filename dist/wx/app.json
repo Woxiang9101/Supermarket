@@ -2,7 +2,8 @@
   "pages": [
     "pages/main/main",
     "pages/personal/main",
-    "pages/promotion/main"
+    "pages/promotion/main",
+    "pages/details/main"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -36,5 +37,6 @@
       }
     ]
   },
-  "usingComponents": {}
+  "usingComponents": {},
+  "sitemapLocation": "sitemap44.json"
 }
