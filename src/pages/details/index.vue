@@ -124,7 +124,7 @@
 <!--    底部购物功能区-->
     <van-goods-action >
       <van-goods-action-icon icon="chat-o" text="客服" dot />
-      <van-goods-action-icon icon="cart-o" text="购物车" info="5" />
+      <van-goods-action-icon  @click="toCart" icon="cart-o" text="购物车" info="5" />
       <van-goods-action-button text="加入购物车" type="warning" />
       <van-goods-action-button text="立即购买" />
     </van-goods-action>
@@ -149,6 +149,13 @@
       },
       onClose() {
         this.show = false;
+      },
+      toCart: () => {
+        console.log('点击了一下下')
+        console.log(wx)
+        wx.navigateTo({
+          url: '/pages/cart/main',
+        })
       }
     }
    ,

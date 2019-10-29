@@ -1,0 +1,14 @@
+{
+  "usingComponents": {
+    "van-card": "/components/vant-weapp/dist/card/index",
+    "van-stepper": "/components/vant-weapp/dist/stepper/index",
+    "van-submit-bar": "/components/vant-weapp/dist/submit-bar/index",
+    "van-checkbox": "/components/vant-weapp/dist/checkbox/index"
+  },
+  "navigationBarBackgroundColor": "#FF4444",
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": "购物车",
+  "backgroundColor": "#00B2EE",
+  "backgroundTextStyle": "light"
+}
+

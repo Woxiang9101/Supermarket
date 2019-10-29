@@ -100,7 +100,7 @@
     </view>
     <van-goods-action class="_van-goods-action data-v-002d76b9">
       <van-goods-action-icon icon="chat-o" text="客服" dot class="_van-goods-action-icon data-v-002d76b9"></van-goods-action-icon>
-      <van-goods-action-icon icon="cart-o" text="购物车" info="5" class="_van-goods-action-icon data-v-002d76b9"></van-goods-action-icon>
+      <van-goods-action-icon bindtap="handleProxy" icon="cart-o" text="购物车" info="5" data-eventid="{{'2'}}" data-comkey="{{$k}}" class="_van-goods-action-icon data-v-002d76b9"></van-goods-action-icon>
       <van-goods-action-button text="加入购物车" type="warning" class="_van-goods-action-button data-v-002d76b9"></van-goods-action-button>
       <van-goods-action-button text="立即购买" class="_van-goods-action-button data-v-002d76b9"></van-goods-action-button>
     </van-goods-action>

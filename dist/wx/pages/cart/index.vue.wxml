@@ -1,0 +1,110 @@
+<template name="29d7bf40">
+  <view class="_div data-v-2cef4042">
+    <view class="_div data-v-2cef4042 card">
+      <view class="_div data-v-2cef4042 checkBox">
+        <van-checkbox class="_van-checkbox data-v-2cef4042 checkBoxContent" value="{{allCheck}}" bindchange="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}"></van-checkbox>
+      </view>
+      <view class="_div data-v-2cef4042 product">
+        <van-card tag="New" price="10.00" origin-price="20.00" title="枝胡原木抽纸3层24包正向之母" desc="枝胡原木抽纸3层24包正向" thumb="{{imageURL}}" class="_van-card data-v-2cef4042">
+          <view slot="bottom" class="_view data-v-2cef4042">
+            <view class="_div data-v-2cef4042 number">
+              <van-stepper value="{{1}}" class="_van-stepper data-v-2cef4042"></van-stepper>
+            </view>
+          </view>
+        </van-card>
+      </view>
+    </view>
+    <view class="_div data-v-2cef4042 card">
+      <view class="_div data-v-2cef4042 checkBox">
+        <van-checkbox class="_van-checkbox data-v-2cef4042 checkBoxContent" value="{{allCheck}}" bindchange="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}"></van-checkbox>
+      </view>
+      <view class="_div data-v-2cef4042 product">
+        <van-card tag="New" price="10.00" origin-price="20.00" title="枝胡原木抽纸3层24包正向之母" desc="枝胡原木抽纸3层24包正向" thumb="{{imageURL}}" class="_van-card data-v-2cef4042">
+          <view slot="bottom" class="_view data-v-2cef4042">
+            <view class="_div data-v-2cef4042 number">
+              <van-stepper value="{{1}}" class="_van-stepper data-v-2cef4042"></van-stepper>
+            </view>
+          </view>
+        </van-card>
+      </view>
+    </view>
+    <view class="_div data-v-2cef4042 card">
+      <view class="_div data-v-2cef4042 checkBox">
+        <van-checkbox class="_van-checkbox data-v-2cef4042 checkBoxContent" value="{{allCheck}}" bindchange="handleProxy" data-eventid="{{'2'}}" data-comkey="{{$k}}"></van-checkbox>
+      </view>
+      <view class="_div data-v-2cef4042 product">
+        <van-card tag="New" price="10.00" origin-price="20.00" title="枝胡原木抽纸3层24包正向之母" desc="枝胡原木抽纸3层24包正向" thumb="{{imageURL}}" class="_van-card data-v-2cef4042">
+          <view slot="bottom" class="_view data-v-2cef4042">
+            <view class="_div data-v-2cef4042 number">
+              <van-stepper value="{{1}}" class="_van-stepper data-v-2cef4042"></van-stepper>
+            </view>
+          </view>
+        </van-card>
+      </view>
+    </view>
+    <view class="_div data-v-2cef4042 card">
+      <view class="_div data-v-2cef4042 checkBox">
+        <van-checkbox class="_van-checkbox data-v-2cef4042 checkBoxContent" value="{{allCheck}}" bindchange="handleProxy" data-eventid="{{'3'}}" data-comkey="{{$k}}"></van-checkbox>
+      </view>
+      <view class="_div data-v-2cef4042 product">
+        <van-card tag="New" price="10.00" origin-price="20.00" title="枝胡原木抽纸3层24包正向之母" desc="枝胡原木抽纸3层24包正向" thumb="{{imageURL}}" class="_van-card data-v-2cef4042">
+          <view slot="bottom" class="_view data-v-2cef4042">
+            <view class="_div data-v-2cef4042 number">
+              <van-stepper value="{{1}}" class="_van-stepper data-v-2cef4042"></van-stepper>
+            </view>
+          </view>
+        </van-card>
+      </view>
+    </view>
+    <view class="_div data-v-2cef4042 card">
+      <view class="_div data-v-2cef4042 checkBox">
+        <van-checkbox class="_van-checkbox data-v-2cef4042 checkBoxContent" value="{{allCheck}}" bindchange="handleProxy" data-eventid="{{'4'}}" data-comkey="{{$k}}"></van-checkbox>
+      </view>
+      <view class="_div data-v-2cef4042 product">
+        <van-card tag="New" price="10.00" origin-price="20.00" title="枝胡原木抽纸3层24包正向之母" desc="枝胡原木抽纸3层24包正向" thumb="{{imageURL}}" class="_van-card data-v-2cef4042">
+          <view slot="bottom" class="_view data-v-2cef4042">
+            <view class="_div data-v-2cef4042 number">
+              <van-stepper value="{{1}}" class="_van-stepper data-v-2cef4042"></van-stepper>
+            </view>
+          </view>
+        </van-card>
+      </view>
+    </view>
+    <view class="_div data-v-2cef4042 card">
+      <view class="_div data-v-2cef4042 checkBox">
+        <van-checkbox class="_van-checkbox data-v-2cef4042 checkBoxContent" value="{{allCheck}}" bindchange="handleProxy" data-eventid="{{'5'}}" data-comkey="{{$k}}"></van-checkbox>
+      </view>
+      <view class="_div data-v-2cef4042 product">
+        <van-card tag="New" price="10.00" origin-price="20.00" title="枝胡原木抽纸3层24包正向之母" desc="枝胡原木抽纸3层24包正向" thumb="{{imageURL}}" class="_van-card data-v-2cef4042">
+          <view slot="bottom" class="_view data-v-2cef4042">
+            <view class="_div data-v-2cef4042 number">
+              <van-stepper value="{{1}}" class="_van-stepper data-v-2cef4042"></van-stepper>
+            </view>
+          </view>
+        </van-card>
+      </view>
+    </view>
+    <view class="_div data-v-2cef4042 card">
+      <view class="_div data-v-2cef4042 checkBox">
+        <van-checkbox class="_van-checkbox data-v-2cef4042 checkBoxContent" value="{{allCheck}}" bindchange="handleProxy" data-eventid="{{'6'}}" data-comkey="{{$k}}"></van-checkbox>
+      </view>
+      <view class="_div data-v-2cef4042 product">
+        <van-card tag="New" price="10.00" origin-price="20.00" title="枝胡原木抽纸3层24包正向之母" desc="枝胡原木抽纸3层24包正向" thumb="{{imageURL}}" class="_van-card data-v-2cef4042">
+          <view slot="bottom" class="_view data-v-2cef4042">
+            <view class="_div data-v-2cef4042 number">
+              <van-stepper value="{{1}}" class="_van-stepper data-v-2cef4042"></van-stepper>
+            </view>
+          </view>
+        </van-card>
+      </view>
+    </view>
+    <view class="_div data-v-2cef4042">
+      <van-submit-bar price="{{3050}}" button-text="提交订单" bind:submit="onClickButton" tip="{{true}}" bindsubmit="handleProxy" data-eventid="{{'8'}}" data-comkey="{{$k}}" class="_van-submit-bar data-v-2cef4042">
+        <view class="_div data-v-2cef4042 allcheckBox">
+          <van-checkbox value="{{allCheck}}" bindchange="handleProxy" data-eventid="{{'7'}}" data-comkey="{{$k}}" class="_van-checkbox data-v-2cef4042">全选</van-checkbox>
+        </view>
+      </van-submit-bar>
+    </view>
+    <view class="_div data-v-2cef4042 footSpace">亲，到底了油！^-^ </view>
+  </view>
+</template>

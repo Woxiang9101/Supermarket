@@ -1,0 +1,38 @@
+
+.card {
+  width: 95%;
+  margin: 20rpx auto;
+  border-radius: 10rpx;
+  box-shadow: 5rpx 5rpx 20rpx #c7c6be;
+  overflow: hidden;
+  background-color: #fafafa;
+}
+.checkBox {
+  width: 50rpx;
+  background-color: #fafafa;
+  float: left;
+}
+.checkBoxContent {
+  width: 50rpx;
+  height: 50rpx;
+  display: block;
+  position: relative;
+  top: 60rpx;
+  left: 10rpx;
+}
+.product {
+  width: 100%;
+  background-color: purple;
+  float: left;
+}
+.number {
+  float: right;
+}
+.allcheckBox {
+  margin-left: 20rpx;
+}
+.footSpace {
+  width: 100%;
+  height: 100rpx;
+  text-align: center;
+}

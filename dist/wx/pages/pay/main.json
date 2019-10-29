@@ -1,0 +1,21 @@
+{
+  "usingComponents": {
+    "van-card": "/components/vant-weapp/dist/card/index",
+    "van-stepper": "/components/vant-weapp/dist/stepper/index",
+    "van-submit-bar": "/components/vant-weapp/dist/submit-bar/index",
+    "van-checkbox": "/components/vant-weapp/dist/checkbox/index",
+    "van-popup": "/components/vant-weapp/dist/popup/index",
+    "van-cell": "/components/vant-weapp/dist/cell/index",
+    "van-cell-group": "/components/vant-weapp/dist/cell-group/index",
+    "van-area": "/components/vant-weapp/dist/area/index",
+    "van-field": "/components/vant-weapp/dist/field/index",
+    "van-collapse": "/components/vant-weapp/dist/collapse/index",
+    "van-collapse-item": "/components/vant-weapp/dist/collapse-item/index"
+  },
+  "navigationBarBackgroundColor": "#FF4444",
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": "填写订单",
+  "backgroundColor": "#00B2EE",
+  "backgroundTextStyle": "light"
+}
+

@@ -1,9 +1,11 @@
 {
   "pages": [
     "pages/main/main",
+    "pages/details/main",
+    "pages/cart/main",
     "pages/personal/main",
     "pages/promotion/main",
-    "pages/details/main"
+    "pages/pay/main"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -37,6 +39,5 @@
       }
     ]
   },
-  "usingComponents": {},
-  "sitemapLocation": "sitemap44.json"
+  "usingComponents": {}
 }
